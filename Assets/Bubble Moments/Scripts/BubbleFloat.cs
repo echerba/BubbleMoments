@@ -28,6 +28,6 @@ public class BubbleFloat : MonoBehaviour {
         transform.Rotate(randomXrot, randomYrot, randomZrot);
         Rigidbody body = GetComponent(typeof(Rigidbody)) as Rigidbody;
         //body.AddForce(-Physics.gravity * body.mass);
-        body.AddForce(-Physics.gravity, ForceMode.Acceleration);
+        //body.AddForce(-Physics.gravity, ForceMode.Acceleration);
     }
 }
